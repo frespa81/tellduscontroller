@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<macro name="morning_scenario">
+    <print text="Starting wake up sequence" />
+    <dim unit_id="1" value="5" />
+    <loop iterations="50">
+        <sleep time="10.0" />
+        <step unit_id="1" value="+5" />
+    </loop>
+    <print text="Turning on lights in the halway" />
+    <dim unit_id="8" value="255" />
+    <dim unit_id="9" value="128" />
+    <print text="Turning on the radio" />
+    <switch unit_id="3" state="1" />
+    <sleep time="120.0" />
+<!--<print text="Making sure i'm awake" />
+    <dim unit_id="1" value="0" />
+    <dim unit_id="1" value="255" />
+    <sleep time="120.0" />-->
+<!--<print text="Turning lights off in the bed room" />
+    <dim unit_id="1" value="0" /> -->
+    <print text="Turning lights on in the living room" />
+    <dim unit_id="2" value="128" />
+    <sleep time="120.0" />
+<!--<print text="Turning lights off in the halway" />
+    <dim unit_id="8" value="0" />
+    <dim unit_id="9" value="0" />-->
+<!--<print text="Turning lights on in the kitchen" />
+    <dim unit_id="6" value="128"/>
+    <dim unit_id="7" value="255"/>-->
+    <print text="Turning the light all the way up in the living room" />
+    <dim unit_id="2" value="255" />
+<!--<sleep time="300.0"/>
+    <print text="Turning lights on in the halway and bed room" />
+    <dim unit_id="8" value="255"/>
+    <dim unit_id="9" value="255"/>
+    <dim unit_id="1" value="255"/>
+    <sleep time="900.0" />
+    <print text="Turning everything off" />
+    <dim unit_id="8" value="0"/>
+    <dim unit_id="9" value="0"/>
+    <dim unit_id="1" value="0"/>
+    <dim unit_id="6" value="0"/>
+    <dim unit_id="7" value="0"/>
+    <dim unit_id="2" value="0" />
+    <switch unit_id="3" state="0" />-->
+</macro>
+

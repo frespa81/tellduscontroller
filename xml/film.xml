@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<macro name="film_scenario">
+    <print text="Dim the lights to movie lights" />
+    <dim unit_id="1" value="0" />
+    <dim unit_id="2" value="40" />
+    <dim unit_id="4" value="0" />
+    <dim unit_id="6" value="0" />
+    <dim unit_id="7" value="0" />
+    <dim unit_id="8" value="0" />
+    <dim unit_id="9" value="80" />
+    <switch unit_id="3" state="0" />
+</macro>

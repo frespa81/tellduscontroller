@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<macro name="work_scenario">
+    <print text="Turn the radio on" />
+    <switch unit_id="3" state="1" />
+    <dim unit_id="1" value="0" />
+    <dim unit_id="2" value="255" />
+    <dim unit_id="4" value="0" />
+    <dim unit_id="6" value="0" />
+    <dim unit_id="7" value="0" />
+    <dim unit_id="8" value="255" />
+    <dim unit_id="9" value="128" />
+</macro>
